@@ -23,6 +23,10 @@ $jumbotron-bg: #0b0f12;
   text-color: #ffffff; 
 }
 
+.form-group {
+  column-span: col-sm-10;
+}
+
 .btn-primary {
   color: #0b0f12;  
 }
