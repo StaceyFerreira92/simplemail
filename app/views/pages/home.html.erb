@@ -1,6 +1,11 @@
 <br><br><br><br>
 <div class="center">
-	<h2>Spend too much time on email?</h2>
-	<p>Don't worry, I got you. </p>
-	<%= link_to "Sign Up", "#", class: "btn btn-primary btn-lg" %>
+	
+	<% if user_signed_in? %>
+		# do something
+	<% else %>
+		<h2>Spend too much time on email?</h2>
+		<p>Don't worry, I got you. </p>
+		<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg", style: 'color:#0b0f12' %>
+	<% end %>
 </div>
