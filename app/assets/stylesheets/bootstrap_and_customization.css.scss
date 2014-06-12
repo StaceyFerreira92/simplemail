@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$body-bg: #ecf0f1;
+$body-bg: #0b0f12;
+$text-color: #ffffff;
 $padding-base-vertical: 6px;
-$navbar-default-bg: #ecf0f1;
-$navbar-default-brand-color: #0b0f12;
-$brand-primary: #0b0f12;
-$jumbotron-bg: #ecf0f1;
+$navbar-default-bg: #0b0f12;
+$navbar-default-brand-color: #ffffff;
+$brand-primary: #ffffff;
+$jumbotron-bg: #0b0f12;
 
 @import 'bootstrap';
 
@@ -15,6 +16,14 @@ $jumbotron-bg: #ecf0f1;
 
 .col-mid-3 {
 	text-align:left
+}
+
+.h2 {
+  text-color: #ffffff; 
+}
+
+.btn-primary {
+  color: #0b0f12;  
 }
 
 .navbar-brand {
