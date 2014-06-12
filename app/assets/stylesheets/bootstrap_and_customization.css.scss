@@ -10,7 +10,7 @@ $jumbotron-bg: #ecf0f1;
 @import 'bootstrap';
 
 .center {
-	text-align:center;
+	text-align:center
 }
 
 .col-mid-3 {
@@ -19,6 +19,14 @@ $jumbotron-bg: #ecf0f1;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.navbar-default {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px; /* future proofing */
+  -khtml-border-radius: 0px; /* for old Konqueror browsers */
+  border-bottom: 1px solid;
 }
 
 hr {
