@@ -50,3 +50,9 @@ hr {
   border-width: 1px 0;
   margin: 18px 0;
 }
+
+// Makes placeholer text disappear across the website on click.
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
